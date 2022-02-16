@@ -1,0 +1,198 @@
+html,body {
+	font-family: arial, helvetica, sans-serif;
+}
+body {
+	background-color: #CCFF99;
+}
+a {
+	color: black;
+}
+.TextInput {
+	border: none;
+    border-bottom: 1px solid black;
+	background-color: white;
+	margin: auto;
+}
+.LoginButton {
+	margin: auto;
+	border: 8px DarkSeaGreen;
+	background-color: DarkSeaGreen;
+	display: inline;
+	color: white; /* Spelt wrong */
+}
+.LoginButtonDisabled {
+	margin: auto;
+	border: 8px DarkSeaGreen;
+	background-color: DarkSeaGreen;
+	display: inline;
+	color: grey; /* Spelt wrong */
+	
+}
+.CentreDiv {
+	width: 200px; 
+	height: 175px; 
+	
+	/*Centre the Div*/
+	margin: auto;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	/*Define Borders*/
+	border: 1px solid black;
+	border-radius: 25px;
+	
+	background-color: White;
+}
+.CentreText {
+	text-align: center;
+}
+.IndexButtonContainer {
+	margin: auto;
+	width: 165px;
+}
+.IndexButton {
+	width: 70px;
+	height: 70px;
+	margin-left: 5px;
+	margin-right: 5px;
+	
+	border: none;
+	background-color: DarkSeaGreen;
+	display: inline;
+	color: white; /* Spelt wrong */
+}
+.LoginContainer {
+	text-align: center;
+	width: 250px; 
+	height: 150px; 
+	
+	/*Centre the Div*/
+	margin: auto;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	/*Define Borders*/
+	border: 1px solid black;
+	border-radius: 25px;
+	
+	background-color: White;
+}
+.TaskSelect {
+	position: absolute;
+    right: 1px;
+    top: 36px;
+	display: block;
+}
+.ButtonHolder{
+	width: 250px;
+	height: 250px;
+	overflow-y: scroll;
+}
+.ContentTall { /* Isnt really all that tall... */
+	height: 320px;
+	width: 500px;
+	background-color: White;
+	/*Define Borders*/
+	border: 1px solid black;
+	border-top: 0px;
+	border-radius: 0px 0px 25px 25px;
+}
+.LHS {
+	position: absolute;
+    left: 24px;
+    top: 36px;
+    padding-bottom: 25px;
+    overflow: hidden;
+	width: 225px;
+	height: 284px;
+}
+.TinyNav {
+	color: white;
+	text-align: center;
+	background-color: DarkSeaGreen; /*Colour is STILL spelt wrong!!*/
+	height: 17px;
+	width: 220px;
+	margin: auto;
+}
+.Frame {
+	height: fit-content;
+	width: 500px;
+	background-color: White;
+	margin: auto;
+	/*Centre the Div*/
+	margin: auto;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	/*Define Borders*/
+	border: 1px solid black;
+	border-radius: 25px;
+}	
+#question {
+	margin-top: 0px;
+	margin-bottom: 1em;
+}
+.NavButton {
+	color: white;
+}
+.Nav {
+	width: 500px;
+	height: 25px;
+	background-color: DarkSeaGreen;
+	border: 1px solid black;
+	border-bottom: 0px;
+	border-radius: 25px 25px 0px 0px;
+}
+span {
+	width: 50px;
+}
+.SubmitButton{
+	margin-top: 0;
+	border: 8px DarkSeaGreen;
+	background-color: DarkSeaGreen;
+	display: inline;
+	color: white; /* Spelt wrong */
+}
+.SubmitButtonR {
+	margin-top: 0;
+	border: 8px DarkSeaGreen;
+	background-color: DarkSeaGreen;
+	display: inline;
+	color: white; /* Spelt wrong */
+	position: absolute;
+    right: 25px;
+    bottom: 25px;
+}
+.Centre{
+	margin: auto;
+	/*Centre the Div*/
+	margin: auto;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 502px;
+	height: 347px;
+}
+ul {
+	list-style: none;
+	position: absolute;
+    right: 25px;
+    top: 1px;
+    padding: 0px;
+    margin:0px;
+}
+li {
+	width:150px;
+	height:25px;
+	display: inline-block;
+	text-align: center;
+	padding-top: 4.5px;
+}
